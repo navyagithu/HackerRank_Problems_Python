@@ -17,7 +17,7 @@ string: 'Hello  ! You just delved into python' where  and  are replaced with  an
 
 STATUS: SOLVED
 LINK: https://www.hackerrank.com/challenges/whats-your-name/problem?isFullScreen=true
-SOLUTION:
+SOLUTION: is as below
 '''
 
 #
