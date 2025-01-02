@@ -30,10 +30,12 @@ SOLUTION: is as below
 #
 
 def print_full_name(first, last):
-    # Write your code here
-    print(f"Hello {first} {last}! You just delved into python.")
+    # This function takes two parameters: first and last names.
+    # It prints a formatted greeting message including the full name.
+    print(f"Hello {first} {last}! You just delved into python.")  # Using an f-string to format the output message.
     
 if __name__ == '__main__':
-    first_name = input()
-    last_name = input()
-    print_full_name(first_name, last_name)
+    # The following block runs only when the script is executed directly (not imported as a module).
+    first_name = input()  # Prompt the user to enter their first name and store it in the variable 'first_name'.
+    last_name = input()   # Prompt the user to enter their last name and store it in the variable 'last_name'.
+    print_full_name(first_name, last_name)  # Call the print_full_name function with the provided names.
